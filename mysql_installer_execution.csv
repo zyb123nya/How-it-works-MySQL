@@ -1,0 +1,38 @@
+Action,Condition,Sequence
+s72,S255,I2
+FindRelatedProducts,,25
+AppSearch,,50
+SetWIX_IS_NETFRAMEWORK_452_OR_LATER_INSTALLED,"WIXNETFX4RELEASEINSTALLED >= ""#379893""",51
+LaunchConditions,,100
+ValidateProductID,,700
+CostInitialize,,800
+FileCost,,900
+SetDataLocation.SetPropertyDefault,NOT INSTALLLOCATION AND NOT DATALOCATION,997
+SetDataLocation.SetPropertyUser,INSTALLLOCATION AND NOT DATALOCATION,998
+SetInstallLocation.SetPropertyDefault,NOT INSTALLLOCATION,999
+CostFinalize,,1000
+InstallValidate,,1400
+InstallInitialize,,1500
+RemoveExistingProducts,,1501
+ProcessComponents,,1600
+UnpublishFeatures,,1800
+RemoveRegistryValues,,2600
+RemoveShortcuts,,3200
+RemoveFiles,,3500
+InstallFiles,,4000
+CreateShortcuts,,4500
+WriteRegistryValues,,5000
+RegisterUser,,6000
+RegisterProduct,,6100
+PublishFeatures,,6300
+PublishProduct,,6400
+LaunchApp.SetProperty,"NOT(REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE) AND NOT(CONSOLEARGS)",6401
+LaunchApp,"NOT(REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE) AND NOT(CONSOLEARGS) AND UILevel > 3",6402
+LaunchConsoleApp.SetProperty,"NOT(REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE) AND CONSOLEARGS",6403
+LaunchConsoleApp,"NOT(REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE) AND CONSOLEARGS  AND (UILevel = 2 OR UILevel = 3)",6404
+DeleteFiles.SetProperty,"REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE",6596
+DeleteTask.SetProperty,NOT Installed,6597
+DeleteTask,NOT Installed,6598
+DeleteFiles,"REMOVE=""ALL"" AND NOT UPGRADINGPRODUCTCODE",6599
+InstallFinalize,,6600
+InstallExecuteSequence,Action,
