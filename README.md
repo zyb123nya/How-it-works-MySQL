@@ -12,5 +12,6 @@
 ##  5.执行事务到存储引擎- [x]<br />
 ##  6.返回给客户端- [x]<br />
 <br />
-ATRI_mysql是一种从0开始的数据库，故事发生在一个叫zyb的人身上，你将会和[https://cstack.github.io/db_tutorial/](https://cstack.github.io/db_tutorial/)一起，探索sql的真相.jpg
+ATRI_mysql是一种从0开始的数据库，故事发生在一个叫zyb的人身上，你将会和[https://cstack.github.io/db_tutorial/](https://cstack.github.io/db_tutorial/)
+一起，探索sql的真相.jpg
 #about MySQL8.0 running.\n<br />
