@@ -6,8 +6,9 @@
 ##  [1.TCP/IP连接](https://github.com/zyb123nya/How-it-works-MySQL/blob/main/tcpip_connect.py)- [√] <br />
 ##  [2.缓存查询](https://github.com/zyb123nya/How-it-works-MySQL/blob/main/tcpip_connect.py)- [√]<br />
 [样例sql](https://github.com/zyb123nya/How-it-works-MySQL/blob/main/example.sql)
-##  3.解析器- [x]
-写了，没完全写(<br />
+##  3.[解析器](https://github.com/zyb123nya/How-it-works-MySQL/tree/main/ATRI_MYSQL/main.c)- [√]
+写了，没完全写(
+<br />
 ##  4.查询优化器- [x]<br />
 ##  5.执行事务到存储引擎- [x]<br />
 ##  6.返回给客户端- [x]<br />
