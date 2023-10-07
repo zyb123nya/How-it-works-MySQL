@@ -1,5 +1,5 @@
 # How-it-works-MySQL
-[mysql展示,原理版](https://github.com/zyb123nya/How-it-works-MySQL/blob/main/mysql%E7%AC%94%E8%AE%B0_public.pdf)
+[mysql展示,原理版](https://github.com/zyb123nya/How-it-works-MySQL/blob/main/mysql%E7%AC%94%E8%AE%B0_20231007.pdf)
 自用(也可以公开,但水平太菜不好意思.jpg)，一种实现mysql运行原理的详细解析教程，其中一些内容为理解，非100%全部代码实现。<br />
 内部由chatgpt提供思路，自行进行修改。
 
